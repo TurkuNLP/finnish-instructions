@@ -1,5 +1,5 @@
 # finnish-instructions
-Centralized repo for Finnish **license-free** instruction data. 
+Centralized repo for Finnish instruction data. License? 
 
 ## Datasets:
 
