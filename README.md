@@ -1,6 +1,28 @@
 # finnish-instructions
 Centralized repo for Finnish instruction data. License? 
 
+## Format
+
+`instruction`: mandatory. May include all the required context.
+
+`input`: optional. Used as an optional context for instructions.
+
+`output`: Generated response.
+
+
+Examples:
+```
+Instruction: "Laadi kysymys annetusta tekstistä."
+Input: "Teksti: Sandra siirtyi toimistoon. Sandra meni kylpyhuoneeseen. Mary meni makuuhuoneeseen. Daniel siirtyi eteiseen."
+Output: "Missä on Daniel?"
+```
+or 
+```
+Instruction: "Kumpi on parempaa suomenkieltä, vaihtoehto a) {a} vai b) {b}"
+Input: ""
+Output: "a"
+```
+
 ## Datasets:
 
 1) Machine translated from the original English using [DeepL](<https://www.deepl.com/>)
