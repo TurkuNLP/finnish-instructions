@@ -1,3 +1,4 @@
+import os
 import json
 import tqdm
 import datasets
@@ -111,12 +112,13 @@ def prompt3(ex):
 
 if __name__=="__main__":
     dataset = datasets.load_dataset('TurkuNLP/turku_paraphrase_corpus', name="plain")
-
+    inst_file=os.path.join(os.path.dirname(__file__),"instructions.txt")
+    
     #for ex in enrich_rewrites(dataset["train"]):
     #    if ex["label"]=="4>":
     #        print(ex["text1"],"  >  ",ex["text2"])
 
-    patterns = read_instructions("instructions.txt")
+    patterns = read_instructions(inst_file)
     for ex in tqdm.tqdm(enrich_rewrites(dataset["train"])):
         res=[]
         res.extend(paraphrase_me_prompt(ex))
