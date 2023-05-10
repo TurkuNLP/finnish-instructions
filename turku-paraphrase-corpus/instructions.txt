@@ -1,0 +1,112 @@
+#PARAPHRASE
+##instruction
+Kerro seuraavan tekstin eri sanoin: {txt1}
+
+##instruction
+Kerro seuraavan eri tavalla: {txt1}
+
+##instruction
+Kerro seuraavan tekstin eri sanoin: "{txt1}"
+
+##instruction
+Kerro seuraavan eri tavalla: "{txt1}"
+
+##output
+{txt2}
+
+#REW-ONE-UNCHANGED
+##instruction
+Saat kaksi lyhyttä tekstipätkää. Ne tarkoittavat lähestulkoon saman asian, mutta eivät kuitenkin täsmää. Muuta jälkimäisen niin, että se tarkoittaa saman asian kuin ensimmäinen:
+
+1. {txt_fixed}
+2. {txt_change}
+
+##output
+{rew_txt}
+
+##output
+1. {txt_fixed}
+2. {rew_txt}
+
+#REW-ONE-UNCHANGED
+##instruction
+Saat kaksi lyhyttä tekstipätkää. Ne tarkoittavat lähestulkoon saman asian, mutta eivät kuitenkin täsmää. Muuta ensimmäisen niin, että se tarkoittaa saman asian kuin jälkimmäinen:
+
+1. {txt_change}
+2. {txt_fixed}
+
+##output
+{rew_txt}
+
+##output
+1. {rew_txt}
+2. {txt_fixed}
+
+
+#REW-BOTH-CHANGED
+##instruction
+Saat kaksi lyhyttä tekstipätkää. Ne tarkoittavat lähestulkoon saman asian, mutta eivät kuitenkin täsmää. Muuta molemmat niin, että ne tarkoittavat saman asian:
+
+1. {txt1}
+2. {txt2}
+
+##output
+1. {rewtxt1}
+2. {rewtxt2}
+
+#REW-BOTH-CHANGED
+##instruction
+Saat kaksi lyhyttä tekstipätkää. Ne tarkoittavat lähestulkoon saman asian, mutta eivät kuitenkin täsmää. Muuta molemmat niin, että ne tarkoittavat saman asian:
+
+1. {txt1}
+2. {txt2}
+
+##output
+1. {rewtxt1}
+2. {rewtxt2}
+
+#PARAPHRASE-ONE-DIR
+##instruction
+Lue seuraavaa kaksi tekstipätkää. Toinen on yleisempi kuin toinen. Mikä niistä se on? Vastaa ensimmäinen tai toinen.
+
+1. {txt_general}
+2. {txt_special}
+
+##output
+
+ensimmäinen
+
+#PARAPHRASE-ONE-DIR
+##instruction
+Lue seuraavaa kaksi tekstipätkää. Toinen on yleisempi kuin toinen. Mikä niistä se on? Vastaa ensimmäinen tai toinen.
+
+1. {txt_special}
+2. {txt_general}
+
+##output
+
+toinen
+
+#PARAPHRASE-3-Y
+##instruction
+
+Katso seuraavaa kaksi tekstipätkää. Voitko kuvitella tilanteen, jossa nämä ei tarkoittaisi saman asian? Kyllä/ei riittää vastaukseksi.
+
+1. {txt1}
+2. {txt2}
+
+##output
+
+Kyllä
+
+#PARAPHRASE-3-N
+##instruction
+
+Katso seuraavaa kaksi tekstipätkää. Voitko kuvitella tilanteen, jossa nämä ei tarkoittaisi saman asian? Kyllä/ei riittää vastaukseksi.
+
+1. {txt1}
+2. {txt2}
+
+##output
+
+Ei
