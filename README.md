@@ -35,7 +35,13 @@ Ready / contains already usable material
 [OpenAssistant dataset v1](https://huggingface.co/datasets/OpenAssistant/oasst1)
 * [natural-instructions-fi](https://github.com/luukkonenr/natural-instructions-fi) is an on-going process of machine translating manually selected tasks.
 
-2) Native Finnish datasets:
+2) Synthetic datasets
+* OCR-correction
+* Masked word prediction
+* Recognize text from space-separated characters
+* Recognize text from characters without space
+
+3) Native Finnish datasets:
 
 Ready
 
