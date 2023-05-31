@@ -25,6 +25,10 @@ Output: "a"
 
 ## Datasets:
 
+TODOs
+* [Anthropic HH-RLHF](https://huggingface.co/datasets/Anthropic/hh-rlhf)
+
+Ready / contains already usable material
 1) Machine translated from the original English using [DeepL](<https://www.deepl.com/>)
 * [dolly-fi](https://github.com/turkunlp/dolly-fi): Finnish version of the [databricks-dolly-15k instruction dataset](<https://github.com/databrickslabs/dolly/tree/master/data>)
 * [oasst-fi](<https://github.com/turkunlp/oasst-fi>) Finnish version of
@@ -34,9 +38,7 @@ Output: "a"
 2) Native Finnish datasets:
 * Paraphrase etc.
 
+
+
 ## Processing 
 
-
-```
-
-```
