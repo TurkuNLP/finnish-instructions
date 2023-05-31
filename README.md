@@ -36,10 +36,15 @@ Ready / contains already usable material
 * [natural-instructions-fi](https://github.com/luukkonenr/natural-instructions-fi) is an on-going process of machine translating manually selected tasks.
 
 2) Synthetic datasets
+
+TODOs
 * OCR-correction
 * Masked word prediction
 * Recognize text from space-separated characters
 * Recognize text from characters without space
+
+Ready
+
 
 3) Native Finnish datasets:
 
