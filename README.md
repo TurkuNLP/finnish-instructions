@@ -36,7 +36,11 @@ Ready / contains already usable material
 * [natural-instructions-fi](https://github.com/luukkonenr/natural-instructions-fi) is an on-going process of machine translating manually selected tasks.
 
 2) Native Finnish datasets:
-* Paraphrase etc.
+
+Ready
+
+* Paraphrase 
+* Question Answering 
 
 
 
