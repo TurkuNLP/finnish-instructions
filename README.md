@@ -12,15 +12,15 @@ Centralized repo for Finnish instruction data. License?
 
 Examples:
 ```
-Instruction: "Laadi kysymys annetusta tekstistä."
-Input: "Teksti: Sandra siirtyi toimistoon. Sandra meni kylpyhuoneeseen. Mary meni makuuhuoneeseen. Daniel siirtyi eteiseen."
-Output: "Missä on Daniel?"
+instruction: "Laadi kysymys annetusta tekstistä."
+input: "Teksti: Sandra siirtyi toimistoon. Sandra meni kylpyhuoneeseen. Mary meni makuuhuoneeseen. Daniel siirtyi eteiseen."
+output: "Missä on Daniel?"
 ```
 or 
 ```
-Instruction: "Kumpi on parempaa suomenkieltä, vaihtoehto a) {a} vai b) {b}"
-Input: ""
-Output: "a"
+instruction: "Kumpi on parempaa suomenkieltä, vaihtoehto a) {a} vai b) {b}"
+input: ""
+output: "a"
 ```
 
 ## Datasets:
