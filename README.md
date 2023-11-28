@@ -34,6 +34,7 @@ Ready / contains already usable material
 * [oasst-fi](<https://github.com/turkunlp/oasst-fi>) Finnish version of
 [OpenAssistant dataset v1](https://huggingface.co/datasets/OpenAssistant/oasst1)
 * [natural-instructions-fi](https://github.com/luukkonenr/natural-instructions-fi) is an on-going process of machine translating manually selected tasks.
+* [Lima-fi](https://github.com/TurkuNLP/finnish-instructions/tree/main/lima_finnish)
 
 2) Synthetic datasets
 
